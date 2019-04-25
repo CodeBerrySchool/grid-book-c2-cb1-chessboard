@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+#board {
+    width: 400px;
+    height: 400px;
+    background-color: violet;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+
+.cell-white {
+    background-color: #ffffff;
+    border: 1px solid lightgrey;
+}
+
+.cell-black {
+    background-color: #000000;
+    border: 1px solid lightgrey;
+}
